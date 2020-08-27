@@ -1,0 +1,26 @@
+E:\TMS_Software\TMSAPI\TMS.DataEntities\bin\Debug\netcoreapp2.1\TMS.DataEntities.deps.json
+E:\TMS_Software\TMSAPI\TMS.DataEntities\bin\Debug\netcoreapp2.1\TMS.DataEntities.dll
+E:\TMS_Software\TMSAPI\TMS.DataEntities\bin\Debug\netcoreapp2.1\TMS.DataEntities.pdb
+E:\TMS_Software\TMSAPI\TMS.DataEntities\obj\Debug\netcoreapp2.1\TMS.DataEntities.csproj.CoreCompileInputs.cache
+E:\TMS_Software\TMSAPI\TMS.DataEntities\obj\Debug\netcoreapp2.1\TMS.DataEntities.AssemblyInfoInputs.cache
+E:\TMS_Software\TMSAPI\TMS.DataEntities\obj\Debug\netcoreapp2.1\TMS.DataEntities.AssemblyInfo.cs
+E:\TMS_Software\TMSAPI\TMS.DataEntities\obj\Debug\netcoreapp2.1\TMS.DataEntities.dll
+E:\TMS_Software\TMSAPI\TMS.DataEntities\obj\Debug\netcoreapp2.1\TMS.DataEntities.pdb
+E:\TMS_Software\TMSAPI\TMS.DataEntities\obj\Debug\netcoreapp2.1\TMS.DataEntities.csprojAssemblyReference.cache
+E:\Software\SMLiveAPI\SMAPI\TMS.DataEntities\bin\Debug\netcoreapp2.1\TMS.DataEntities.deps.json
+E:\Software\SMLiveAPI\SMAPI\TMS.DataEntities\bin\Debug\netcoreapp2.1\TMS.DataEntities.dll
+E:\Software\SMLiveAPI\SMAPI\TMS.DataEntities\bin\Debug\netcoreapp2.1\TMS.DataEntities.pdb
+E:\Software\SMLiveAPI\SMAPI\TMS.DataEntities\obj\Debug\netcoreapp2.1\TMS.DataEntities.csprojAssemblyReference.cache
+E:\Software\SMLiveAPI\SMAPI\TMS.DataEntities\obj\Debug\netcoreapp2.1\TMS.DataEntities.csproj.CoreCompileInputs.cache
+E:\Software\SMLiveAPI\SMAPI\TMS.DataEntities\obj\Debug\netcoreapp2.1\TMS.DataEntities.AssemblyInfoInputs.cache
+E:\Software\SMLiveAPI\SMAPI\TMS.DataEntities\obj\Debug\netcoreapp2.1\TMS.DataEntities.AssemblyInfo.cs
+E:\Software\SMLiveAPI\SMAPI\TMS.DataEntities\obj\Debug\netcoreapp2.1\TMS.DataEntities.dll
+E:\Software\SMLiveAPI\SMAPI\TMS.DataEntities\obj\Debug\netcoreapp2.1\TMS.DataEntities.pdb
+E:\DEVOPS SETUP\SMLiveAPI\TMS.DataEntities\bin\Debug\netcoreapp2.1\TMS.DataEntities.deps.json
+E:\DEVOPS SETUP\SMLiveAPI\TMS.DataEntities\bin\Debug\netcoreapp2.1\TMS.DataEntities.dll
+E:\DEVOPS SETUP\SMLiveAPI\TMS.DataEntities\bin\Debug\netcoreapp2.1\TMS.DataEntities.pdb
+E:\DEVOPS SETUP\SMLiveAPI\TMS.DataEntities\obj\Debug\netcoreapp2.1\TMS.DataEntities.csproj.CoreCompileInputs.cache
+E:\DEVOPS SETUP\SMLiveAPI\TMS.DataEntities\obj\Debug\netcoreapp2.1\TMS.DataEntities.AssemblyInfoInputs.cache
+E:\DEVOPS SETUP\SMLiveAPI\TMS.DataEntities\obj\Debug\netcoreapp2.1\TMS.DataEntities.AssemblyInfo.cs
+E:\DEVOPS SETUP\SMLiveAPI\TMS.DataEntities\obj\Debug\netcoreapp2.1\TMS.DataEntities.dll
+E:\DEVOPS SETUP\SMLiveAPI\TMS.DataEntities\obj\Debug\netcoreapp2.1\TMS.DataEntities.pdb

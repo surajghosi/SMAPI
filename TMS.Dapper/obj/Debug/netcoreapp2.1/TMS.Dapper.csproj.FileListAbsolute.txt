@@ -1,0 +1,36 @@
+E:\TMS_Software\TMSAPI\TMS.Dapper\bin\Debug\netcoreapp2.1\TMS.Dapper.deps.json
+E:\TMS_Software\TMSAPI\TMS.Dapper\bin\Debug\netcoreapp2.1\TMS.Dapper.dll
+E:\TMS_Software\TMSAPI\TMS.Dapper\bin\Debug\netcoreapp2.1\TMS.Dapper.pdb
+E:\TMS_Software\TMSAPI\TMS.Dapper\bin\Debug\netcoreapp2.1\TMS.DataEntities.dll
+E:\TMS_Software\TMSAPI\TMS.Dapper\bin\Debug\netcoreapp2.1\TMS.DataEntities.pdb
+E:\TMS_Software\TMSAPI\TMS.Dapper\obj\Debug\netcoreapp2.1\TMS.Dapper.csprojAssemblyReference.cache
+E:\TMS_Software\TMSAPI\TMS.Dapper\obj\Debug\netcoreapp2.1\TMS.Dapper.csproj.CoreCompileInputs.cache
+E:\TMS_Software\TMSAPI\TMS.Dapper\obj\Debug\netcoreapp2.1\TMS.Dapper.AssemblyInfoInputs.cache
+E:\TMS_Software\TMSAPI\TMS.Dapper\obj\Debug\netcoreapp2.1\TMS.Dapper.AssemblyInfo.cs
+E:\TMS_Software\TMSAPI\TMS.Dapper\obj\Debug\netcoreapp2.1\TMS.Dapper.csproj.CopyComplete
+E:\TMS_Software\TMSAPI\TMS.Dapper\obj\Debug\netcoreapp2.1\TMS.Dapper.dll
+E:\TMS_Software\TMSAPI\TMS.Dapper\obj\Debug\netcoreapp2.1\TMS.Dapper.pdb
+E:\Software\SMLiveAPI\SMAPI\TMS.Dapper\bin\Debug\netcoreapp2.1\TMS.Dapper.deps.json
+E:\Software\SMLiveAPI\SMAPI\TMS.Dapper\bin\Debug\netcoreapp2.1\TMS.Dapper.dll
+E:\Software\SMLiveAPI\SMAPI\TMS.Dapper\bin\Debug\netcoreapp2.1\TMS.Dapper.pdb
+E:\Software\SMLiveAPI\SMAPI\TMS.Dapper\bin\Debug\netcoreapp2.1\TMS.DataEntities.dll
+E:\Software\SMLiveAPI\SMAPI\TMS.Dapper\bin\Debug\netcoreapp2.1\TMS.DataEntities.pdb
+E:\Software\SMLiveAPI\SMAPI\TMS.Dapper\obj\Debug\netcoreapp2.1\TMS.Dapper.csprojAssemblyReference.cache
+E:\Software\SMLiveAPI\SMAPI\TMS.Dapper\obj\Debug\netcoreapp2.1\TMS.Dapper.csproj.CoreCompileInputs.cache
+E:\Software\SMLiveAPI\SMAPI\TMS.Dapper\obj\Debug\netcoreapp2.1\TMS.Dapper.AssemblyInfoInputs.cache
+E:\Software\SMLiveAPI\SMAPI\TMS.Dapper\obj\Debug\netcoreapp2.1\TMS.Dapper.AssemblyInfo.cs
+E:\Software\SMLiveAPI\SMAPI\TMS.Dapper\obj\Debug\netcoreapp2.1\TMS.Dapper.csproj.CopyComplete
+E:\Software\SMLiveAPI\SMAPI\TMS.Dapper\obj\Debug\netcoreapp2.1\TMS.Dapper.dll
+E:\Software\SMLiveAPI\SMAPI\TMS.Dapper\obj\Debug\netcoreapp2.1\TMS.Dapper.pdb
+E:\DEVOPS SETUP\SMLiveAPI\TMS.Dapper\bin\Debug\netcoreapp2.1\TMS.Dapper.deps.json
+E:\DEVOPS SETUP\SMLiveAPI\TMS.Dapper\bin\Debug\netcoreapp2.1\TMS.Dapper.dll
+E:\DEVOPS SETUP\SMLiveAPI\TMS.Dapper\bin\Debug\netcoreapp2.1\TMS.Dapper.pdb
+E:\DEVOPS SETUP\SMLiveAPI\TMS.Dapper\bin\Debug\netcoreapp2.1\TMS.DataEntities.dll
+E:\DEVOPS SETUP\SMLiveAPI\TMS.Dapper\bin\Debug\netcoreapp2.1\TMS.DataEntities.pdb
+E:\DEVOPS SETUP\SMLiveAPI\TMS.Dapper\obj\Debug\netcoreapp2.1\TMS.Dapper.csprojAssemblyReference.cache
+E:\DEVOPS SETUP\SMLiveAPI\TMS.Dapper\obj\Debug\netcoreapp2.1\TMS.Dapper.csproj.CoreCompileInputs.cache
+E:\DEVOPS SETUP\SMLiveAPI\TMS.Dapper\obj\Debug\netcoreapp2.1\TMS.Dapper.AssemblyInfoInputs.cache
+E:\DEVOPS SETUP\SMLiveAPI\TMS.Dapper\obj\Debug\netcoreapp2.1\TMS.Dapper.AssemblyInfo.cs
+E:\DEVOPS SETUP\SMLiveAPI\TMS.Dapper\obj\Debug\netcoreapp2.1\TMS.Dapper.csproj.CopyComplete
+E:\DEVOPS SETUP\SMLiveAPI\TMS.Dapper\obj\Debug\netcoreapp2.1\TMS.Dapper.dll
+E:\DEVOPS SETUP\SMLiveAPI\TMS.Dapper\obj\Debug\netcoreapp2.1\TMS.Dapper.pdb

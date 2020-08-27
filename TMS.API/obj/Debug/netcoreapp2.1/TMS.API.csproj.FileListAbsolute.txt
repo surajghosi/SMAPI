@@ -1,0 +1,69 @@
+E:\TMS_Software\TMSAPI\TMS.API\bin\Debug\netcoreapp2.1\appsettings.Development.json
+E:\TMS_Software\TMSAPI\TMS.API\bin\Debug\netcoreapp2.1\appsettings.json
+E:\TMS_Software\TMSAPI\TMS.API\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+E:\TMS_Software\TMSAPI\TMS.API\bin\Debug\netcoreapp2.1\TMS.API.deps.json
+E:\TMS_Software\TMSAPI\TMS.API\bin\Debug\netcoreapp2.1\TMS.API.runtimeconfig.json
+E:\TMS_Software\TMSAPI\TMS.API\bin\Debug\netcoreapp2.1\TMS.API.runtimeconfig.dev.json
+E:\TMS_Software\TMSAPI\TMS.API\bin\Debug\netcoreapp2.1\TMS.API.dll
+E:\TMS_Software\TMSAPI\TMS.API\bin\Debug\netcoreapp2.1\TMS.API.pdb
+E:\TMS_Software\TMSAPI\TMS.API\bin\Debug\netcoreapp2.1\TMS.Dapper.dll
+E:\TMS_Software\TMSAPI\TMS.API\bin\Debug\netcoreapp2.1\TMS.DataEntities.dll
+E:\TMS_Software\TMSAPI\TMS.API\bin\Debug\netcoreapp2.1\TMS.Dapper.pdb
+E:\TMS_Software\TMSAPI\TMS.API\bin\Debug\netcoreapp2.1\TMS.DataEntities.pdb
+E:\TMS_Software\TMSAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.csprojAssemblyReference.cache
+E:\TMS_Software\TMSAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.csproj.CoreCompileInputs.cache
+E:\TMS_Software\TMSAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.RazorAssemblyInfo.cache
+E:\TMS_Software\TMSAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.RazorAssemblyInfo.cs
+E:\TMS_Software\TMSAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.AssemblyInfoInputs.cache
+E:\TMS_Software\TMSAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.AssemblyInfo.cs
+E:\TMS_Software\TMSAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.RazorTargetAssemblyInfo.cache
+E:\TMS_Software\TMSAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.csproj.CopyComplete
+E:\TMS_Software\TMSAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.dll
+E:\TMS_Software\TMSAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.pdb
+E:\TMS_Software\TMSAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.genruntimeconfig.cache
+E:\Software\SMLiveAPI\SMAPI\TMS.API\bin\Debug\netcoreapp2.1\appsettings.Development.json
+E:\Software\SMLiveAPI\SMAPI\TMS.API\bin\Debug\netcoreapp2.1\appsettings.json
+E:\Software\SMLiveAPI\SMAPI\TMS.API\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+E:\Software\SMLiveAPI\SMAPI\TMS.API\bin\Debug\netcoreapp2.1\TMS.API.deps.json
+E:\Software\SMLiveAPI\SMAPI\TMS.API\bin\Debug\netcoreapp2.1\TMS.API.runtimeconfig.json
+E:\Software\SMLiveAPI\SMAPI\TMS.API\bin\Debug\netcoreapp2.1\TMS.API.runtimeconfig.dev.json
+E:\Software\SMLiveAPI\SMAPI\TMS.API\bin\Debug\netcoreapp2.1\TMS.API.dll
+E:\Software\SMLiveAPI\SMAPI\TMS.API\bin\Debug\netcoreapp2.1\TMS.API.pdb
+E:\Software\SMLiveAPI\SMAPI\TMS.API\bin\Debug\netcoreapp2.1\TMS.Dapper.dll
+E:\Software\SMLiveAPI\SMAPI\TMS.API\bin\Debug\netcoreapp2.1\TMS.DataEntities.dll
+E:\Software\SMLiveAPI\SMAPI\TMS.API\bin\Debug\netcoreapp2.1\TMS.Dapper.pdb
+E:\Software\SMLiveAPI\SMAPI\TMS.API\bin\Debug\netcoreapp2.1\TMS.DataEntities.pdb
+E:\Software\SMLiveAPI\SMAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.csprojAssemblyReference.cache
+E:\Software\SMLiveAPI\SMAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.csproj.CoreCompileInputs.cache
+E:\Software\SMLiveAPI\SMAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.RazorAssemblyInfo.cache
+E:\Software\SMLiveAPI\SMAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.RazorAssemblyInfo.cs
+E:\Software\SMLiveAPI\SMAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.AssemblyInfoInputs.cache
+E:\Software\SMLiveAPI\SMAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.AssemblyInfo.cs
+E:\Software\SMLiveAPI\SMAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.RazorTargetAssemblyInfo.cache
+E:\Software\SMLiveAPI\SMAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.csproj.CopyComplete
+E:\Software\SMLiveAPI\SMAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.dll
+E:\Software\SMLiveAPI\SMAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.pdb
+E:\Software\SMLiveAPI\SMAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.genruntimeconfig.cache
+E:\DEVOPS SETUP\SMLiveAPI\TMS.API\bin\Debug\netcoreapp2.1\appsettings.Development.json
+E:\DEVOPS SETUP\SMLiveAPI\TMS.API\bin\Debug\netcoreapp2.1\appsettings.json
+E:\DEVOPS SETUP\SMLiveAPI\TMS.API\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+E:\DEVOPS SETUP\SMLiveAPI\TMS.API\bin\Debug\netcoreapp2.1\TMS.API.deps.json
+E:\DEVOPS SETUP\SMLiveAPI\TMS.API\bin\Debug\netcoreapp2.1\TMS.API.runtimeconfig.json
+E:\DEVOPS SETUP\SMLiveAPI\TMS.API\bin\Debug\netcoreapp2.1\TMS.API.runtimeconfig.dev.json
+E:\DEVOPS SETUP\SMLiveAPI\TMS.API\bin\Debug\netcoreapp2.1\TMS.API.dll
+E:\DEVOPS SETUP\SMLiveAPI\TMS.API\bin\Debug\netcoreapp2.1\TMS.API.pdb
+E:\DEVOPS SETUP\SMLiveAPI\TMS.API\bin\Debug\netcoreapp2.1\TMS.Dapper.dll
+E:\DEVOPS SETUP\SMLiveAPI\TMS.API\bin\Debug\netcoreapp2.1\TMS.DataEntities.dll
+E:\DEVOPS SETUP\SMLiveAPI\TMS.API\bin\Debug\netcoreapp2.1\TMS.Dapper.pdb
+E:\DEVOPS SETUP\SMLiveAPI\TMS.API\bin\Debug\netcoreapp2.1\TMS.DataEntities.pdb
+E:\DEVOPS SETUP\SMLiveAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.csprojAssemblyReference.cache
+E:\DEVOPS SETUP\SMLiveAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.csproj.CoreCompileInputs.cache
+E:\DEVOPS SETUP\SMLiveAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.RazorAssemblyInfo.cache
+E:\DEVOPS SETUP\SMLiveAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.RazorAssemblyInfo.cs
+E:\DEVOPS SETUP\SMLiveAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.AssemblyInfoInputs.cache
+E:\DEVOPS SETUP\SMLiveAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.AssemblyInfo.cs
+E:\DEVOPS SETUP\SMLiveAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.RazorTargetAssemblyInfo.cache
+E:\DEVOPS SETUP\SMLiveAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.csproj.CopyComplete
+E:\DEVOPS SETUP\SMLiveAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.dll
+E:\DEVOPS SETUP\SMLiveAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.pdb
+E:\DEVOPS SETUP\SMLiveAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.genruntimeconfig.cache

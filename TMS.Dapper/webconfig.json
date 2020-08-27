@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "DbConnectionString": "server=(LocalDB)\\MSSQLLocalDB;Database=TMSLive;Trusted_Connection=True;"
+  }
+}
