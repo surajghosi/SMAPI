@@ -1,4 +1,5 @@
 ﻿using Dapper;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
@@ -39,6 +40,11 @@ namespace TMS.Dapper.Services
             {
                 throw ex;
             }
+        }
+
+        public Task<fileUploadResponse> uploadFileInFolder(IFormFile file)
+        {
+            throw new NotImplementedException();
         }
     }
 }

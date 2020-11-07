@@ -6,11 +6,11 @@ namespace TMS.DataEntities.PipeLineDTO
 {
     public class PipeLineDTO
     {
-        public Guid PipeID { get; set; }
-        public string PipeName { get; set; }
+        public Guid pipeID { get; set; }
+        public string pipeName { get; set; }
         public bool IsActive { get; set; }
-        public string IsDefault { get; set; }
-        public string OrgId { get; set; }
+        public bool isDefault { get; set; }
+        public Guid OrgId { get; set; }
         public DateTime CreatedDate { get; set; }
         public Guid CreatedBy { get; set; }
         public DateTime ModifiedDate { get; set; }

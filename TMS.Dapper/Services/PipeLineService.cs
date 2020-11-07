@@ -24,9 +24,9 @@ namespace TMS.Dapper.Services
 
                 var query = "ADDUPDATEPIPELINE";
                 var param = new DynamicParameters();
-                param.Add("@PIPELINEID", _obj.PipeID);
-                param.Add("@PIPELINENAME", _obj.PipeName);
-                param.Add("@ISDEFAULT", _obj.IsDefault);
+                param.Add("@PIPELINEID", _obj.pipeID);
+                param.Add("@PIPELINENAME", _obj.pipeName);
+                param.Add("@ISDEFAULT", _obj.isDefault);
                 param.Add("@USERID", _obj.CreatedBy);
                 param.Add("@ORGID", _obj.OrgId);
                 int Result = await Connection.ExecuteScalarAsync<int>(query, param, commandType: CommandType.StoredProcedure, transaction: Transaction);

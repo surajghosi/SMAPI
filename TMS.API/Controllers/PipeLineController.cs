@@ -28,9 +28,14 @@ namespace TMS.API.Controllers
 
         }
 
+        /// <summary>
+        /// Add and update pipeLine
+        /// </summary>
+        /// <param name="obj"></param>
+        /// <returns></returns>
         [Authorize]
-        [HttpPost("AddUser")]
-        public async Task<IActionResult> AddUser([FromBody]PipeLineModel obj)
+        [HttpPost("AddPipeLine")]
+        public async Task<IActionResult> AddPipeLine([FromBody]PipeLineModel obj)
         {
             try
             {
@@ -51,6 +56,7 @@ namespace TMS.API.Controllers
                     using (var uow = new UnitOfWork(_configs.Value.DbConnectionString))
                     {
                         int result = await uow.PipeLine.AddUpdatePipeLine(pipelineDTO);
+                        uow.Commit();
                         if (result == 1)
                         {
                             return BadRequest(new ApiResponse { message = ApiMessageConstants.pipeAlreadyExists });
@@ -59,6 +65,7 @@ namespace TMS.API.Controllers
                         {
                             return Ok(new ApiResponse { message = ApiMessageConstants.pipeUpdated });
                         }
+                       
                         return Ok(new ApiResponse { message = ApiMessageConstants.pipeAdded, data = result });
 
                     }
@@ -73,6 +80,84 @@ namespace TMS.API.Controllers
             {
                 return BadRequest(new ApiResponse { message = ex.Message });
             }
+
+        }
+
+        /// <summary>
+        /// Get All PipeLine
+        /// </summary>
+        /// <param name="pageNumber"></param>
+        /// <param name="pageSize"></param>
+        /// <returns></returns>
+        [Authorize]
+        [HttpGet("GetAllPipeLine")]
+        public async Task<IActionResult> GetAllPipeLine(int pageNumber, int pageSize)
+        {
+            try
+            {
+                ClaimsIdentity claimsIdentity = User.Identity as ClaimsIdentity;
+                var currentLoginUserOrgid = new UserClaims(claimsIdentity).OrgId;
+                using (var uow = new UnitOfWork(_configs.Value.DbConnectionString))
+                {
+                    var result = await uow.PipeLine.PipeLineList(currentLoginUserOrgid);
+                    return Ok(new ApiResponse { data = result });
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new ApiResponse { message = ex.Message });
+            }
+
+
+
+        }
+
+        [Authorize]
+        [HttpGet("GetPipeLineById")]
+        public async Task<IActionResult> GetPipeLineById(Guid pipeLineId)
+        {
+            try
+            {
+
+                using (var uow = new UnitOfWork(_configs.Value.DbConnectionString))
+                {
+                    var result = await uow.PipeLine.PipeLineDetailsById(pipeLineId);
+                    return Ok(new ApiResponse { data = result });
+                }
+
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new ApiResponse { message = ex.Message });
+            }
+
+
+
+        }
+
+        [Authorize]
+        [HttpDelete("DeletePipeLine")]
+        public async Task<IActionResult> DeletePipeLine(Guid pipeLineId)
+        {
+            try
+            {
+                using (var uow = new UnitOfWork(_configs.Value.DbConnectionString))
+                {
+                    await uow.PipeLine.DeletePipeLine(pipeLineId);
+                    uow.Commit();
+                    return Ok(new ApiResponse { message = ApiMessageConstants.userDelete });
+                }
+
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new ApiResponse { message = ex.Message });
+            }
+
+
 
         }
     }

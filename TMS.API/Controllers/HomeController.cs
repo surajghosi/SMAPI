@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using TMS.API.Common;
 using TMS.Dapper.Interface;
@@ -33,9 +30,6 @@ namespace TMS.API.Controllers
             {
                 ClaimsIdentity claimsIdentity = User.Identity as ClaimsIdentity;
                 var logid = new UserClaims(claimsIdentity).LoggedInUserId;
-
-
-
                 var result = await _userService.GetAll();
                 return Ok(result);
             }

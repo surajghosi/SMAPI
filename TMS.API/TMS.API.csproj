@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="LeadFiles\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 

@@ -67,3 +67,22 @@ E:\DEVOPS SETUP\SMLiveAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.csproj.CopyCom
 E:\DEVOPS SETUP\SMLiveAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.dll
 E:\DEVOPS SETUP\SMLiveAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.pdb
 E:\DEVOPS SETUP\SMLiveAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.genruntimeconfig.cache
+G:\Software\Main Project\DEVOPS LATEST\SMAPI\TMS.API\bin\Debug\netcoreapp2.1\TMS.API.deps.json
+G:\Software\Main Project\DEVOPS LATEST\SMAPI\TMS.API\bin\Debug\netcoreapp2.1\TMS.API.runtimeconfig.json
+G:\Software\Main Project\DEVOPS LATEST\SMAPI\TMS.API\bin\Debug\netcoreapp2.1\TMS.API.runtimeconfig.dev.json
+G:\Software\Main Project\DEVOPS LATEST\SMAPI\TMS.API\bin\Debug\netcoreapp2.1\TMS.API.dll
+G:\Software\Main Project\DEVOPS LATEST\SMAPI\TMS.API\bin\Debug\netcoreapp2.1\TMS.API.pdb
+G:\Software\Main Project\DEVOPS LATEST\SMAPI\TMS.API\bin\Debug\netcoreapp2.1\TMS.Dapper.dll
+G:\Software\Main Project\DEVOPS LATEST\SMAPI\TMS.API\bin\Debug\netcoreapp2.1\TMS.DataEntities.dll
+G:\Software\Main Project\DEVOPS LATEST\SMAPI\TMS.API\bin\Debug\netcoreapp2.1\TMS.Dapper.pdb
+G:\Software\Main Project\DEVOPS LATEST\SMAPI\TMS.API\bin\Debug\netcoreapp2.1\TMS.DataEntities.pdb
+G:\Software\Main Project\DEVOPS LATEST\SMAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.csprojAssemblyReference.cache
+G:\Software\Main Project\DEVOPS LATEST\SMAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.csproj.CoreCompileInputs.cache
+G:\Software\Main Project\DEVOPS LATEST\SMAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.RazorAssemblyInfo.cache
+G:\Software\Main Project\DEVOPS LATEST\SMAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.RazorAssemblyInfo.cs
+G:\Software\Main Project\DEVOPS LATEST\SMAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.AssemblyInfoInputs.cache
+G:\Software\Main Project\DEVOPS LATEST\SMAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.AssemblyInfo.cs
+G:\Software\Main Project\DEVOPS LATEST\SMAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.RazorTargetAssemblyInfo.cache
+G:\Software\Main Project\DEVOPS LATEST\SMAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.csproj.CopyComplete
+G:\Software\Main Project\DEVOPS LATEST\SMAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.dll
+G:\Software\Main Project\DEVOPS LATEST\SMAPI\TMS.API\obj\Debug\netcoreapp2.1\TMS.API.pdb

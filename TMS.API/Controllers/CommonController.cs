@@ -1,18 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 using TMS.API.Common;
-using TMS.API.Helpers;
 using TMS.API.Models.Common;
 using TMS.Dapper.Infrastructure;
-using TMS.Dapper.Interface;
 using TMS.Dapper.UnitOfWork;
 
 namespace TMS.API.Controllers

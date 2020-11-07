@@ -24,3 +24,15 @@ E:\DEVOPS SETUP\SMLiveAPI\TMS.DataEntities\obj\Debug\netcoreapp2.1\TMS.DataEntit
 E:\DEVOPS SETUP\SMLiveAPI\TMS.DataEntities\obj\Debug\netcoreapp2.1\TMS.DataEntities.AssemblyInfo.cs
 E:\DEVOPS SETUP\SMLiveAPI\TMS.DataEntities\obj\Debug\netcoreapp2.1\TMS.DataEntities.dll
 E:\DEVOPS SETUP\SMLiveAPI\TMS.DataEntities\obj\Debug\netcoreapp2.1\TMS.DataEntities.pdb
+G:\Software\Main Project\DEVOPS LATEST\SMAPI\TMS.DataEntities\bin\Debug\netcoreapp2.1\TMS.DataEntities.deps.json
+G:\Software\Main Project\DEVOPS LATEST\SMAPI\TMS.DataEntities\bin\Debug\netcoreapp2.1\TMS.DataEntities.dll
+G:\Software\Main Project\DEVOPS LATEST\SMAPI\TMS.DataEntities\bin\Debug\netcoreapp2.1\TMS.DataEntities.pdb
+G:\Software\Main Project\DEVOPS LATEST\SMAPI\TMS.DataEntities\obj\Debug\netcoreapp2.1\TMS.DataEntities.csprojAssemblyReference.cache
+G:\Software\Main Project\DEVOPS LATEST\SMAPI\TMS.DataEntities\obj\Debug\netcoreapp2.1\TMS.DataEntities.csproj.CoreCompileInputs.cache
+G:\Software\Main Project\DEVOPS LATEST\SMAPI\TMS.DataEntities\obj\Debug\netcoreapp2.1\TMS.DataEntities.AssemblyInfoInputs.cache
+G:\Software\Main Project\DEVOPS LATEST\SMAPI\TMS.DataEntities\obj\Debug\netcoreapp2.1\TMS.DataEntities.AssemblyInfo.cs
+G:\Software\Main Project\DEVOPS LATEST\SMAPI\TMS.DataEntities\obj\Debug\netcoreapp2.1\TMS.DataEntities.dll
+G:\Software\Main Project\DEVOPS LATEST\SMAPI\TMS.DataEntities\obj\Debug\netcoreapp2.1\TMS.DataEntities.pdb
+G:\Software\Main Project\DEVOPS LATEST\SMAPI\TMS.DataEntities\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Http.Features.dll
+G:\Software\Main Project\DEVOPS LATEST\SMAPI\TMS.DataEntities\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Http.Features.xml
+G:\Software\Main Project\DEVOPS LATEST\SMAPI\TMS.DataEntities\obj\Debug\netcoreapp2.1\TMS.DataEntities.csproj.CopyComplete

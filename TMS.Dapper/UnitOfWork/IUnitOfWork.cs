@@ -12,7 +12,16 @@ namespace TMS.Dapper.UnitOfWork
         IUser User { get; }
         ICommon Common { get; }
         IPipeLine PipeLine { get; }
-
+        
+        IStage Stage { get; }
+        IAdvanceLeadCreator AdvanceLeadCreator { get; }
+        IContact Contact { get; }
+        INotes Notes { get; }
+        IFile Files { get; }
+        IProduct Product { get; }
+        ISource Source { get; }
+        IManageLeadAccess ManageLeadAccess { get; }
+        IZone Zone { get; }
         void Commit();
     }
 }

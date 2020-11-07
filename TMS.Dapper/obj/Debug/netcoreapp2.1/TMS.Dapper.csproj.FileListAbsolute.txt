@@ -34,3 +34,17 @@ E:\DEVOPS SETUP\SMLiveAPI\TMS.Dapper\obj\Debug\netcoreapp2.1\TMS.Dapper.Assembly
 E:\DEVOPS SETUP\SMLiveAPI\TMS.Dapper\obj\Debug\netcoreapp2.1\TMS.Dapper.csproj.CopyComplete
 E:\DEVOPS SETUP\SMLiveAPI\TMS.Dapper\obj\Debug\netcoreapp2.1\TMS.Dapper.dll
 E:\DEVOPS SETUP\SMLiveAPI\TMS.Dapper\obj\Debug\netcoreapp2.1\TMS.Dapper.pdb
+G:\Software\Main Project\DEVOPS LATEST\SMAPI\TMS.Dapper\bin\Debug\netcoreapp2.1\TMS.Dapper.deps.json
+G:\Software\Main Project\DEVOPS LATEST\SMAPI\TMS.Dapper\bin\Debug\netcoreapp2.1\TMS.Dapper.dll
+G:\Software\Main Project\DEVOPS LATEST\SMAPI\TMS.Dapper\bin\Debug\netcoreapp2.1\TMS.Dapper.pdb
+G:\Software\Main Project\DEVOPS LATEST\SMAPI\TMS.Dapper\bin\Debug\netcoreapp2.1\TMS.DataEntities.dll
+G:\Software\Main Project\DEVOPS LATEST\SMAPI\TMS.Dapper\bin\Debug\netcoreapp2.1\TMS.DataEntities.pdb
+G:\Software\Main Project\DEVOPS LATEST\SMAPI\TMS.Dapper\obj\Debug\netcoreapp2.1\TMS.Dapper.csprojAssemblyReference.cache
+G:\Software\Main Project\DEVOPS LATEST\SMAPI\TMS.Dapper\obj\Debug\netcoreapp2.1\TMS.Dapper.csproj.CoreCompileInputs.cache
+G:\Software\Main Project\DEVOPS LATEST\SMAPI\TMS.Dapper\obj\Debug\netcoreapp2.1\TMS.Dapper.AssemblyInfoInputs.cache
+G:\Software\Main Project\DEVOPS LATEST\SMAPI\TMS.Dapper\obj\Debug\netcoreapp2.1\TMS.Dapper.AssemblyInfo.cs
+G:\Software\Main Project\DEVOPS LATEST\SMAPI\TMS.Dapper\obj\Debug\netcoreapp2.1\TMS.Dapper.csproj.CopyComplete
+G:\Software\Main Project\DEVOPS LATEST\SMAPI\TMS.Dapper\obj\Debug\netcoreapp2.1\TMS.Dapper.dll
+G:\Software\Main Project\DEVOPS LATEST\SMAPI\TMS.Dapper\obj\Debug\netcoreapp2.1\TMS.Dapper.pdb
+G:\Software\Main Project\DEVOPS LATEST\SMAPI\TMS.Dapper\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Http.Features.dll
+G:\Software\Main Project\DEVOPS LATEST\SMAPI\TMS.Dapper\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Http.Features.xml

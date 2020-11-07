@@ -1,26 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Razor.Language.CodeGeneration;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
-using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
-using TMS.API.Common;
 using TMS.API.Helpers;
 using TMS.API.Models;
 using TMS.API.Models.Common;
 using TMS.Dapper.Infrastructure;
-using TMS.Dapper.Interface;
-using TMS.Dapper.Services;
 using TMS.Dapper.UnitOfWork;
 using TMS.DataEntities.Users;
 
@@ -32,7 +23,6 @@ namespace TMS.API.Controllers
     {
         // private IUser _userService;
         private readonly AppSettings _appSettings;
-        private readonly IMapper _mapper;
 
         private readonly IOptions<TMSConfiguration> _configs;
         public UserController(IOptions<TMSConfiguration> Configs,IOptions<AppSettings> appSeetings)

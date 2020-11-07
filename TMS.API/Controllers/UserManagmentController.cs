@@ -52,6 +52,7 @@ namespace TMS.API.Controllers
                     using (var uow = new UnitOfWork(_configs.Value.DbConnectionString))
                     {
                         int result = await uow.UserManagement.AddUpdateUser(registrationDTO);
+                        uow.Commit();
                         if (result == 1)
                         {
                             return BadRequest(new ApiResponse { message = ApiMessageConstants.emailAlreadyExists });

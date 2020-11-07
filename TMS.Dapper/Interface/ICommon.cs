@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,5 +10,6 @@ namespace TMS.Dapper.Interface
    public interface ICommon
     {
        Task<List<RoleModelDTO>> GetAllRole(Guid OrgId);
+        Task<fileUploadResponse> uploadFileInFolder(IFormFile file);
     }
 }

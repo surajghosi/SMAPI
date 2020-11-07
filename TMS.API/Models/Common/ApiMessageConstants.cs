@@ -24,6 +24,14 @@ namespace TMS.API.Models.Common
         public static string pipeDeleted = "PipeLine deleted Successfully.";
         public static string pipeUpdated = "PipeLine Updated Successfully.";
 
+        // common message
+        public static string stageAlreadyExists = "Stage name  already exists. Please try with new name";
+        public static string commonAdded = "Added Successfully.";
+        public static string commonDeleted = "Deleted Successfully.";
+        public static string commonUpdated = "Updated Successfully.";
+        public static string requestInvalid = "Request is not valid. Please try after sometime.";
+        //end
+
     }
     
 
