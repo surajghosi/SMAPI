@@ -9,6 +9,7 @@ namespace TMS.Dapper.Interface
     public interface INotes
     {
         Task<string> addNotesAsync(NotesDTO _obj);
-        Task DeleteNotesAsync(Guid noteId, Guid modifiedBy);
+        Task deleteNotesAsync(Guid noteId, Guid modifiedBy);
+        Task<List<NotesDTO>> getAllContactAsync(Guid leadId);
     }
 }

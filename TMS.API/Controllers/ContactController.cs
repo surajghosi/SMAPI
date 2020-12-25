@@ -103,5 +103,36 @@ namespace TMS.API.Controllers
 
 
         }
+
+        [Authorize]
+        [HttpGet("AllContact")]
+        public async Task<IActionResult> AllContact(Guid leadId)
+        {
+            try
+            {
+                if (Convert.ToString(leadId) != string.Empty)
+                {
+
+                    using (var uow = new UnitOfWork(_configs.Value.DbConnectionString))
+                    {
+                        var result = await uow.Contact.GetContactDetailsByIdAsync(leadId);
+                        return Ok(new ApiResponse { data= result });
+                    }
+
+                }
+                else
+                {
+                    return BadRequest(new ApiResponse { message = ApiMessageConstants.someThingWentWrong });
+                }
+
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new ApiResponse { message = ex.Message });
+            }
+
+
+
+        }
     }
 }

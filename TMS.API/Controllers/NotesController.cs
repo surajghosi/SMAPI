@@ -82,7 +82,7 @@ namespace TMS.API.Controllers
                     obj.createdBy = currentLoginUserid;
                     using (var uow = new UnitOfWork(_configs.Value.DbConnectionString))
                     {
-                        await uow.Notes.DeleteNotesAsync(obj.noteId, obj.createdBy);
+                        await uow.Notes.deleteNotesAsync(obj.noteId, obj.createdBy);
                         uow.Commit();
                         return Ok(new ApiResponse { message = ApiMessageConstants.commonDeleted });
                     }
@@ -98,6 +98,37 @@ namespace TMS.API.Controllers
             {
                 return BadRequest(new ApiResponse { message = ex.Message });
             }
+        }
+
+        [Authorize]
+        [HttpGet("AllNotes")]
+        public async Task<IActionResult> AllNotes(Guid leadId)
+        {
+            try
+            {
+                if (Convert.ToString(leadId) != string.Empty)
+                {
+
+                    using (var uow = new UnitOfWork(_configs.Value.DbConnectionString))
+                    {
+                        var result = await uow.Notes.getAllContactAsync(leadId);
+                        return Ok(new ApiResponse { data = result });
+                    }
+
+                }
+                else
+                {
+                    return BadRequest(new ApiResponse { message = ApiMessageConstants.someThingWentWrong });
+                }
+
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new ApiResponse { message = ex.Message });
+            }
+
+
+
         }
     }
 }

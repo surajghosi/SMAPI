@@ -48,7 +48,14 @@ namespace TMS.API.Controllers
                     {
                         string result = await uow.ManageLeadAccess.addLeadAccessAsync(leadAccessDTO);
                         uow.Commit();
-                        return Ok(new ApiResponse { message = ApiMessageConstants.commonAdded, data = result });
+                        if(result=="")
+                        {
+                            return BadRequest(new ApiResponse { message = ApiMessageConstants.leadAlreadyAssign });
+                        } else
+                        {
+                            return Ok(new ApiResponse { message = ApiMessageConstants.commonAdded, data = result });
+                        }
+                        
 
                     }
 
@@ -95,6 +102,37 @@ namespace TMS.API.Controllers
             {
                 return BadRequest(new ApiResponse { message = ex.Message });
             }
+        }
+
+        [Authorize]
+        [HttpGet("AllLeadAccess")]
+        public async Task<IActionResult> AllLeadAccess(Guid leadId)
+        {
+            try
+            {
+                if (Convert.ToString(leadId) != string.Empty)
+                {
+
+                    using (var uow = new UnitOfWork(_configs.Value.DbConnectionString))
+                    {
+                        var result = await uow.ManageLeadAccess.getAllLeadAccessAsync(leadId);
+                        return Ok(new ApiResponse { data = result });
+                    }
+
+                }
+                else
+                {
+                    return BadRequest(new ApiResponse { message = ApiMessageConstants.someThingWentWrong });
+                }
+
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new ApiResponse { message = ex.Message });
+            }
+
+
+
         }
     }
 }

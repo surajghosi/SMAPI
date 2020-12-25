@@ -66,15 +66,11 @@ namespace TMS.Dapper.Services
             try
             {
 
-                var query = "AddContactDetails";
+                var query = "GetContactDetailsByLeadId";
                 var param = new DynamicParameters();
-                
-               
                 param.Add("@leadId", leadId);
                 var Result = await Connection.QueryAsync<ContactDTO>(query, param, commandType: CommandType.StoredProcedure, transaction: Transaction);
                 return Result.ToList();
-
-
             }
             catch (Exception ex)
             {

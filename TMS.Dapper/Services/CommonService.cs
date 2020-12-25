@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using TMS.Dapper.Infrastructure;
 using TMS.Dapper.Interface;
+using TMS.DataEntities.AdvanceLeadCreatorDTO;
 using TMS.DataEntities.CommonDTO;
 using TMS.DataEntities.Users;
 
@@ -35,6 +36,30 @@ namespace TMS.Dapper.Services
                     var roleMaster = await Connection.QueryAsync<RoleModelDTO>(query, param, commandType: CommandType.StoredProcedure,transaction:Transaction);
                     return roleMaster.ToList();
                 
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public async Task updateLeadDetailsAsync(LeadInfoDTO leadDetails)
+        {
+            try
+            {
+
+                var query = "UpdateLeadDetails";
+                var param = new DynamicParameters();
+                param.Add("@leadId", leadDetails.leadId);
+                param.Add("@leadName", leadDetails.leadName);
+                param.Add("@leadPipeLineId", leadDetails.pipeId);
+                param.Add("@leadStageId", leadDetails.stageId);
+                param.Add("@leadValue", leadDetails.leadValue);
+                param.Add("@userid", leadDetails.createdBy);
+                param.Add("@updateFlag", leadDetails.updateFlag);
+                await Connection.ExecuteScalarAsync<object>(query, param, commandType: CommandType.StoredProcedure, transaction: Transaction);
+
+
             }
             catch (Exception ex)
             {

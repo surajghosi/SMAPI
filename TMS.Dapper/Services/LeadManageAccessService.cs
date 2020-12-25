@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TMS.Dapper.Interface;
@@ -47,6 +48,21 @@ namespace TMS.Dapper.Services
                 param.Add("@modifiedby", modifiedBy);
                 await Connection.ExecuteScalarAsync<object>(query, param, commandType: CommandType.StoredProcedure, transaction: Transaction);
 
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        public async Task<List<LeadAccessDTO>> getAllLeadAccessAsync(Guid leadId)
+        {
+            try
+            {
+                var query = "GetAllLeadAccess";
+                var param = new DynamicParameters();
+                param.Add("@leadId", leadId);
+                var Result = await Connection.QueryAsync<LeadAccessDTO>(query, param, commandType: CommandType.StoredProcedure, transaction: Transaction);
+                return Result.ToList();
             }
             catch (Exception ex)
             {

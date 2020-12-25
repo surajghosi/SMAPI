@@ -10,5 +10,7 @@ namespace TMS.Dapper.Interface
     {
         Task<string> AddZoneAsync(ZoneDTO _obj);
         Task DeleteZoneAsync(Guid zoneId, Guid modifiedBy);
+
+        Task<List<ZoneDTO>> getAllZoneAsync(Guid leadId);
     }
 }

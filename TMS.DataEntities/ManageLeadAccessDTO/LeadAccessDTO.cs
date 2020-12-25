@@ -10,5 +10,6 @@ namespace TMS.DataEntities.ManageLeadAccessDTO
         public Guid leadId { get; set; }
         public Guid userId { get; set; }
         public Guid createdBy { get; set; }
+        public string name { get; set; }
     }
 }

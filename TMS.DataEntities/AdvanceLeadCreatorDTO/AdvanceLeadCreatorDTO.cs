@@ -25,6 +25,7 @@ namespace TMS.DataEntities.AdvanceLeadCreatorDTO
         public string assignUserName  {get;set;}
 
         public DateTime createDate { get; set; }
+        public int updateFlag { get; set; }
     }
 
 

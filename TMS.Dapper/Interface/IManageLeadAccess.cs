@@ -10,5 +10,6 @@ namespace TMS.Dapper.Interface
     {
         Task<string> addLeadAccessAsync(LeadAccessDTO obj);
         Task deleteLeadAccessAsync(Guid accessId, Guid modifiedBy);
+        Task<List<LeadAccessDTO>> getAllLeadAccessAsync(Guid leadId);
     }
 }

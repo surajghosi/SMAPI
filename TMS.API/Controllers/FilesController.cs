@@ -135,5 +135,36 @@ namespace TMS.API.Controllers
                 return BadRequest(new ApiResponse { message = ex.Message });
             }
         }
+
+        [Authorize]
+        [HttpGet("AllFiles")]
+        public async Task<IActionResult> AllFiles(Guid leadId)
+        {
+            try
+            {
+                if (Convert.ToString(leadId) != string.Empty)
+                {
+
+                    using (var uow = new UnitOfWork(_configs.Value.DbConnectionString))
+                    {
+                        var result = await uow.Files.allFiles(leadId);
+                        return Ok(new ApiResponse { data = result });
+                    }
+
+                }
+                else
+                {
+                    return BadRequest(new ApiResponse { message = ApiMessageConstants.someThingWentWrong });
+                }
+
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new ApiResponse { message = ex.Message });
+            }
+
+
+
+        }
     }
 }

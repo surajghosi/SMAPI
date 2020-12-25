@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TMS.Dapper.Interface;
@@ -14,6 +15,23 @@ namespace TMS.Dapper.Services
         public FilesService(IDbTransaction transaction)
           : base(transaction)
         {
+        }
+
+        public async Task<List<FileDTO>> allFiles(Guid leadId)
+        {
+            try
+            {
+
+                var query = "GetAllFile";
+                var param = new DynamicParameters();
+                param.Add("@leadId", leadId);
+                var Result = await Connection.QueryAsync<FileDTO>(query, param, commandType: CommandType.StoredProcedure, transaction: Transaction);
+                return Result.ToList();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
 
         public async Task deleteFile(FileDTO _obj)

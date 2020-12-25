@@ -10,5 +10,6 @@ namespace TMS.Dapper.Interface
     {
         Task<string> AddSourceAsync(SourceDTO _obj);
         Task DeleteSourceAsync(Guid sourceId, Guid modifiedBy);
+        Task<List<SourceDTO>> getAllSourceAsync(Guid leadId);
     }
 }

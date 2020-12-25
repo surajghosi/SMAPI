@@ -17,6 +17,7 @@ namespace TMS.API.Models.Common
         public static string someThingWentWrong = "Something went wrong . Please try after sometime";
         public static string userDelete = "User deleted successfully";
         public static string  updateUserSuccessfully= "User Updated successfully";
+        public static string leadAlreadyAssign = "lead already assign to selected user.";
 
         // Pipe Line message
         public static string pipeAlreadyExists = "PipeLine name  already exists. Please try with new name";

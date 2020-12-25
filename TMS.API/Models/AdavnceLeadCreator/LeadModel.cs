@@ -22,6 +22,7 @@ namespace TMS.API.Models.AdavnceLeadCreator
         public Guid stageId { get; set; }
         public Guid createdBy { get; set; }
         public Guid orgId { get; set; }
+        public int updateFlag { get; set; }
     }
 
     public class LeadListViewModel
